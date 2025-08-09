@@ -1,4 +1,5 @@
 <script setup>
+import Skeleton from '@/skeleto-skeleton.gif'
 import {computed, reactive, ref} from "vue";
 import JSConfetti from 'js-confetti'
 
@@ -61,7 +62,7 @@ function Share(){
 
 <template>
   <div style="display: flex">
-    <img src="@/../public/skeleto-skeleton.gif" style="width: 100px"/>
+    <img :src="Skeleton" style="width: 100px"/>
     <h1>Opensource UX phone selector</h1>
   </div>
   <h1>
