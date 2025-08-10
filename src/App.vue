@@ -8,7 +8,7 @@ const jsConfetti = new JSConfetti()
 const turns = ref(0);
 const canChange = ref(true);
 
-const absoluteMax = 2499999999999
+const absoluteMax = 9999999999999
 const phone = ref(0);
 const bounds = reactive({
   min: 0,
